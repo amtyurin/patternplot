@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PatternPlot — Privacy Policy</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#23201c; --muted:#5c554c; --line:#e5ddcf;
+    --accent:#7a5c43; --card:#faf7f1;
+    --maxw:44rem;
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#17150f; --fg:#ece4d6; --muted:#a89e8d; --line:#332d22; --accent:#c9a06a; --card:#1f1c15; }
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:var(--font);
+    line-height:1.62;font-size:17px;-webkit-text-size-adjust:100%;}
+  main{max-width:var(--maxw);margin:0 auto;padding:3rem 1.25rem 5rem;}
+  h1{font-size:2rem;line-height:1.2;margin:0 0 .25rem;letter-spacing:-0.02em;}
+  h2{font-size:1.2rem;margin:2.4rem 0 .6rem;letter-spacing:-0.01em;}
+  h3{font-size:1.02rem;margin:1.4rem 0 .4rem;}
+  p,li{color:var(--fg);}
+  .muted{color:var(--muted);}
+  .eyebrow{color:var(--accent);font-weight:700;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;margin:0 0 .5rem;}
+  .updated{color:var(--muted);font-size:.92rem;margin:.4rem 0 0;}
+  a{color:var(--accent);}
+  ul{padding-left:1.25rem;}
+  li{margin:.3rem 0;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1rem 1.15rem;margin:1.2rem 0;}
+  .card p:first-child{margin-top:0;} .card p:last-child{margin-bottom:0;}
+  hr{border:none;border-top:1px solid var(--line);margin:2.6rem 0;}
+  footer{color:var(--muted);font-size:.9rem;margin-top:2.4rem;}
+  code{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:.05rem .35rem;font-size:.9em;}
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">PatternPlot</p>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Effective date: 4 July 2026 &middot; Last updated: 4 July 2026</p>
+
+  <p>PatternPlot is an iPad app for tracing and grading sewing patterns, published by
+  <strong>cpmtek</strong>. This policy explains what the app does and does not do with your
+  information. The short version: PatternPlot has no account, keeps your work on your device,
+  and does not track you.</p>
+
+  <div class="card">
+    <p><strong>At a glance</strong></p>
+    <ul>
+      <li>No account, no sign-in, no server-side storage of your patterns.</li>
+      <li>Your traced and graded work is stored <strong>locally on your iPad</strong>.</li>
+      <li>No advertising, no analytics SDKs, no tracking, no data broker sharing.</li>
+      <li>The only information that can leave your device is what you choose to send when you use
+          an optional AI-assisted feature — described in full below.</li>
+    </ul>
+  </div>
+
+  <h2>1. Who we are</h2>
+  <p>The app and this service are provided by cpmtek ("we", "us"). For any privacy question, or
+  to exercise a data right described below, contact
+  <a href="mailto:support@cpmtek.com">support@cpmtek.com</a>.</p>
+
+  <h2>2. What the app stores, and where</h2>
+  <p>PatternPlot has <strong>no user account and no server-side storage of your content.</strong>
+  Everything you create stays on your device:</p>
+  <ul>
+    <li>Your current project is autosaved as a <code>.patternplot</code> file in the app's
+      Application Support directory and restored the next time you open the app.</li>
+    <li>You can explicitly save or open a <code>.patternplot</code> file from the Export screen.</li>
+    <li>When you use the share / export sheet, the app writes a temporary PDF to the system
+      temporary directory so it can be shared or saved to Files. This is on-device and handled by
+      iOS.</li>
+  </ul>
+  <p>All of the above is private to your device. Nothing is uploaded to us for storage, and we
+  cannot see your patterns.</p>
+
+  <h2>3. AI-assisted features (optional)</h2>
+  <p>PatternPlot includes optional AI-assisted advisory features for the Pro Grading tier. These
+  are an accelerator, not a requirement: deterministic grading and quality checks work fully on
+  your device without them.</p>
+  <p><strong>If you choose to use an AI-assisted feature</strong>, PatternPlot sends the content
+  you choose — a <strong>structured, non-personal summary of your pattern</strong> (shape labels
+  and overall measurements in millimetres; no name, no account) <strong>plus your typed
+  request</strong> — to our processing service at <code>patternplot-api.cpmtek.com</code>, which
+  forwards it to our AI provider, <strong>Anthropic (Claude)</strong>, solely to return advisory
+  suggestions and quality-check warnings.</p>
+  <ul>
+    <li>This data is processed <strong>transiently to generate a response</strong> and is
+      <strong>not stored by us</strong> and not used to train models.</li>
+    <li><strong>No pattern photo or image is sent.</strong> Only the structured summary and your
+      text leave the device.</li>
+    <li>AI suggestions are <strong>advisory only</strong>. All measurements and graded geometry
+      are computed on your device and are <strong>never sent to, or altered by, the AI</strong>.
+      Every AI response is re-validated on your device before it can affect anything.</li>
+    <li>If you never use an AI-assisted feature, <strong>no data leaves your device</strong> for
+      this purpose.</li>
+  </ul>
+  <p>Anthropic acts as our processor for this single advisory call. See Anthropic's privacy terms
+  for how they handle transient API requests.</p>
+
+  <h2>4. Camera and photos</h2>
+  <p>If you trace from a photograph, PatternPlot uses your <strong>camera</strong> to photograph a
+  paper pattern, or the system photo picker to let you choose an <strong>existing photo</strong>.
+  Images are used on your device to trace an editable, true-scale pattern. Photos are not uploaded
+  to us and, in this version, are not sent to the AI service.</p>
+
+  <h2>5. What we do NOT collect</h2>
+  <ul>
+    <li>No name, email address, or account.</li>
+    <li>No location.</li>
+    <li>No advertising identifiers; no advertising; no cross-app or cross-site tracking.</li>
+    <li>No third-party analytics or tracking SDKs.</li>
+  </ul>
+
+  <h2>6. Diagnostics</h2>
+  <p>Crash and performance diagnostics remain on your device unless you explicitly opt in to
+  sending anonymized diagnostics. If you opt in, the data is anonymized and used only to fix bugs
+  and improve reliability. It is never used to identify or track you.</p>
+
+  <h2>7. Purchases</h2>
+  <p>Purchases and subscriptions are handled by Apple through the App Store and StoreKit. We do
+  not receive or store your payment details. Apple's handling of purchase data is governed by
+  Apple's privacy policy.</p>
+
+  <h2>8. Children</h2>
+  <p>PatternPlot is not directed at children and we do not knowingly collect personal information
+  from children under 13.</p>
+
+  <h2>9. Your rights (GDPR / CCPA and similar)</h2>
+  <p>Because PatternPlot has no account and stores your content on your device, most data-subject
+  rights are satisfied directly by you controlling the app and its files:</p>
+  <ul>
+    <li><strong>Access / portability:</strong> your patterns are your local <code>.patternplot</code>
+      and exported PDF files.</li>
+    <li><strong>Deletion:</strong> delete your files, or delete the app, to remove all on-device
+      data. You can stop the only outbound data flow at any time by not using AI-assisted
+      features.</li>
+    <li><strong>Controller / processor:</strong> for the optional advisory call, cpmtek is the
+      data controller and Anthropic is a processor. The lawful basis is performance of the service
+      you requested. We do not sell personal information.</li>
+  </ul>
+  <p>To ask a question or make a request, contact
+  <a href="mailto:support@cpmtek.com">support@cpmtek.com</a>.</p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>If we change this policy we will update the effective date above and, for material changes,
+  surface a notice in the app or on this page.</p>
+
+  <hr>
+  <footer>
+    <p>PatternPlot is a product of cpmtek. Contact:
+      <a href="mailto:support@cpmtek.com">support@cpmtek.com</a>.<br>
+      See also our <a href="/terms">Terms of Use</a>.</p>
+  </footer>
+</main>
+</body>
+</html>
