@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PatternPlot — Support</title>
+<style>
+  :root{
+    --bg:#ffffff; --fg:#23201c; --muted:#5c554c; --line:#e5ddcf;
+    --accent:#7a5c43; --card:#faf7f1;
+    --maxw:44rem;
+    --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#17150f; --fg:#ece4d6; --muted:#a89e8d; --line:#332d22; --accent:#c9a06a; --card:#1f1c15; }
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:var(--font);
+    line-height:1.62;font-size:17px;-webkit-text-size-adjust:100%;}
+  main{max-width:var(--maxw);margin:0 auto;padding:3rem 1.25rem 5rem;}
+  h1{font-size:2rem;line-height:1.2;margin:0 0 .25rem;letter-spacing:-0.02em;}
+  h2{font-size:1.2rem;margin:2.4rem 0 .6rem;letter-spacing:-0.01em;}
+  h3{font-size:1.02rem;margin:1.4rem 0 .4rem;}
+  p,li{color:var(--fg);}
+  .muted{color:var(--muted);}
+  .eyebrow{color:var(--accent);font-weight:700;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;margin:0 0 .5rem;}
+  .updated{color:var(--muted);font-size:.92rem;margin:.4rem 0 0;}
+  a{color:var(--accent);}
+  ul{padding-left:1.25rem;}
+  li{margin:.3rem 0;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:1rem 1.15rem;margin:1.2rem 0;}
+  .card p:first-child{margin-top:0;} .card p:last-child{margin-bottom:0;}
+  .contact{font-size:1.05rem;}
+  hr{border:none;border-top:1px solid var(--line);margin:2.6rem 0;}
+  footer{color:var(--muted);font-size:.9rem;margin-top:2.4rem;}
+  code{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:.05rem .35rem;font-size:.9em;}
+  details{border:1px solid var(--line);border-radius:12px;padding:.2rem 1rem;margin:.6rem 0;background:var(--card);}
+  summary{cursor:pointer;font-weight:600;padding:.7rem 0;}
+  details[open] summary{margin-bottom:.2rem;}
+</style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">PatternPlot</p>
+  <h1>Support</h1>
+  <p class="updated">PatternPlot for iPad &middot; Last updated: 5 July 2026</p>
+
+  <p>PatternPlot turns a paper sewing pattern into an editable, true-scale vector on your iPad,
+  then deterministically grades one base size into a full size run. This page answers the most
+  common questions and tells you how to reach a human.</p>
+
+  <div class="card contact">
+    <p><strong>Contact us</strong></p>
+    <p>Email <a href="mailto:amtyurin@gmail.com">amtyurin@gmail.com</a> — we usually reply within
+    2&ndash;3 business days. Please include your iPad model and iPadOS version, and a screenshot
+    if you can, so we can help faster.</p>
+  </div>
+
+  <h2>Getting started</h2>
+  <ul>
+    <li><strong>No account, no sign-in.</strong> Your work stays on your iPad; nothing is uploaded
+      for storage.</li>
+    <li><strong>Requirements:</strong> iPad running iPadOS 17 or later. Apple Pencil improves
+      precision but is not required — every action works with finger and numeric entry.</li>
+    <li><strong>Trace:</strong> import a photo of your paper pattern (or, on a physical iPad, scan
+      with the document camera), tap the four corners of a known rectangle and enter its real
+      size to calibrate to true scale, then tap along the edge to trace.</li>
+    <li><strong>Edit:</strong> add or move points, add seam allowance, notches, and grainline.</li>
+    <li><strong>Export:</strong> tiled A4/Letter or A0 PDF with registration marks and a 50&nbsp;mm
+      calibration square — free, no subscription required.</li>
+  </ul>
+
+  <h2>Frequently asked questions</h2>
+
+  <details>
+    <summary>What is free, and what needs a subscription?</summary>
+    <p>Tracing, vector editing, seam allowance, notches, grainline, and tiled/A0 PDF export are
+    <strong>free forever</strong> — no purchase required. The only paid feature is
+    <strong>Pro Grading</strong>: deterministic full-size-run grading, the nested-grade overlay,
+    grade-rule starter tables, and a deterministic QA report.</p>
+  </details>
+
+  <details>
+    <summary>How much is Pro Grading, and is there a trial?</summary>
+    <p>Pro Grading is an auto-renewable subscription at <strong>US$79.00 per year</strong>, with a
+    <strong>7-day free trial</strong> for new subscribers. Prices in other regions are shown in the
+    App at purchase. Payment is charged to your Apple ID; it renews automatically unless you turn
+    off auto-renew at least 24 hours before the period ends.</p>
+  </details>
+
+  <details>
+    <summary>How do I restore a purchase or manage/cancel my subscription?</summary>
+    <p><strong>Restore:</strong> open the Pro paywall (Grade demo &rarr; Unlock Pro) and tap
+    <strong>Restore Purchases</strong>.</p>
+    <p><strong>Manage or cancel:</strong> on your iPad open <em>Settings &rarr; [your name] &rarr;
+    Subscriptions</em>, choose PatternPlot, and manage or cancel there. Deleting the app does not
+    cancel a subscription.</p>
+  </details>
+
+  <details>
+    <summary>My printed pattern isn't true scale.</summary>
+    <p>Print the exported PDF at <strong>100% / Actual Size</strong> (not "Fit to page"), then
+    measure the 50&nbsp;mm calibration square on the printout with a ruler. If it isn't exactly
+    50&nbsp;mm, your printer is scaling — turn off any auto-fit or margin scaling and reprint.
+    Always verify the calibration square before cutting fabric.</p>
+  </details>
+
+  <details>
+    <summary>How accurate is grading? Does AI change my measurements?</summary>
+    <p>All geometry — every coordinate, seam allowance, notch, and graded measurement — is computed
+    <strong>deterministically on your device</strong>. The optional AI-assisted advisory (Pro) only
+    turns plain-English requests into suggestions and quality-check warnings; it is
+    <strong>advisory only and never sets or alters your measurements</strong>. The grade-rule
+    starter tables are synthetic starting points you edit — not a validated size library.
+    PatternPlot flags when a size drifts beyond a safe grade range so you can re-check proportions
+    before cutting.</p>
+  </details>
+
+  <details>
+    <summary>Where are my files? How do I back them up?</summary>
+    <p>Your current project autosaves on-device and is restored when you reopen the app. You can
+    also <strong>Save</strong> or <strong>Open</strong> a <code>.patternplot</code> file from the
+    Export screen (via the Files app), which is how you back up or move projects between devices.</p>
+  </details>
+
+  <details>
+    <summary>What data leaves my device?</summary>
+    <p>By default, none. Only if you use an optional AI-assisted feature does the app send a
+    structured, non-personal pattern summary plus your typed request to our processing service,
+    which forwards it to Anthropic (Claude) to return advice. No pattern photo is sent, and it is
+    processed transiently and not stored. Full detail is in the
+    <a href="privacy-policy.html">Privacy Policy</a>.</p>
+  </details>
+
+  <h2>Report a problem or request a feature</h2>
+  <p>Email <a href="mailto:amtyurin@gmail.com">amtyurin@gmail.com</a> with what you were doing,
+  what you expected, and what happened. Bug reports about a graded size that doesn't fit are our
+  highest priority — please attach the <code>.patternplot</code> file if you can.</p>
+
+  <hr>
+  <footer>
+    <p>PatternPlot is a product of cpmtek. Contact:
+      <a href="mailto:amtyurin@gmail.com">amtyurin@gmail.com</a>.<br>
+      See also our <a href="privacy-policy.html">Privacy Policy</a> and
+      <a href="terms-of-use.html">Terms of Use</a>.</p>
+  </footer>
+</main>
+</body>
+</html>
