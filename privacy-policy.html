@@ -39,7 +39,7 @@
 <main>
   <p class="eyebrow">PatternPlot</p>
   <h1>Privacy Policy</h1>
-  <p class="updated">Effective date: 4 July 2026 &middot; Last updated: 4 July 2026</p>
+  <p class="updated">Effective date: 5 July 2026 &middot; Last updated: 14 October 2026</p>
 
   <p>PatternPlot is an iPad app for tracing and grading sewing patterns, published by
   <strong>cpmtek</strong>. This policy explains what the app does and does not do with your
@@ -52,8 +52,8 @@
       <li>No account, no sign-in, no server-side storage of your patterns.</li>
       <li>Your traced and graded work is stored <strong>locally on your iPad</strong>.</li>
       <li>No advertising, no analytics SDKs, no tracking, no data broker sharing.</li>
-      <li>The only information that can leave your device is what you choose to send when you use
-          an optional AI-assisted feature — described in full below.</li>
+      <li>This version sends none of your pattern data off your device. It offers no AI feature;
+          the advisory service described in section 3 is not available in it.</li>
     </ul>
   </div>
 
@@ -76,35 +76,35 @@
   <p>All of the above is private to your device. Nothing is uploaded to us for storage, and we
   cannot see your patterns.</p>
 
-  <h2>3. AI-assisted features (optional)</h2>
-  <p>PatternPlot includes optional AI-assisted advisory features for the Pro Grading tier. These
-  are an accelerator, not a requirement: deterministic grading and quality checks work fully on
-  your device without them.</p>
-  <p><strong>If you choose to use an AI-assisted feature</strong>, PatternPlot sends the content
-  you choose — a <strong>structured, non-personal summary of your pattern</strong> (shape labels
-  and overall measurements in millimetres; no name, no account) <strong>plus your typed
-  request</strong> — to our processing service at <code>patternplot-api.cpmtek.com</code>, which
-  forwards it to our AI provider, <strong>Anthropic (Claude)</strong>, solely to return advisory
-  suggestions and quality-check warnings.</p>
+  <h2>3. Advisory service (not offered in this version)</h2>
+  <p><strong>This version of PatternPlot does not send any content to our advisory service.</strong>
+  No screen in the app offers it, and grading, quality checks, geometry and exports all happen on
+  your device. The app still contains code for an optional advisory service, which this version
+  never calls, so our App Store privacy details still declare the one kind of data it would
+  send. That data, and how it would be handled, is described here.</p>
+  <p><strong>Only if a version offers it and you choose to use it</strong>, PatternPlot would send
+  the content you choose — a <strong>structured, non-personal summary of your pattern</strong>
+  (shape labels and overall measurements in millimetres; no name, no account) <strong>plus your
+  typed request</strong> — to our processing service at <code>patternplot-api.cpmtek.com</code>,
+  which forwards it to our AI provider, <strong>Anthropic (Claude)</strong>, solely to return
+  advisory suggestions and quality-check warnings.</p>
   <ul>
-    <li>This data is processed <strong>transiently to generate a response</strong> and is
+    <li>This data would be processed <strong>transiently to generate a response</strong>,
       <strong>not stored by us</strong> and not used to train models.</li>
-    <li><strong>No pattern photo or image is sent.</strong> Only the structured summary and your
-      text leave the device.</li>
-    <li>AI suggestions are <strong>advisory only</strong>. All measurements and graded geometry
+    <li><strong>No pattern photo or image would be sent.</strong> Only the structured summary and
+      your text would leave the device.</li>
+    <li>Suggestions would be <strong>advisory only</strong>. All measurements and graded geometry
       are computed on your device and are <strong>never sent to, or altered by, the AI</strong>.
-      Every AI response is re-validated on your device before it can affect anything.</li>
-    <li>If you never use an AI-assisted feature, <strong>no data leaves your device</strong> for
-      this purpose.</li>
+      Every response would be re-validated on your device before it could affect anything.</li>
   </ul>
-  <p>Anthropic acts as our processor for this single advisory call. See Anthropic's privacy terms
-  for how they handle transient API requests.</p>
+  <p>For that call, if it is ever made, Anthropic acts as our processor. See Anthropic's privacy
+  terms for how they handle transient API requests.</p>
 
   <h2>4. Camera and photos</h2>
   <p>If you trace from a photograph, PatternPlot uses your <strong>camera</strong> to photograph a
   paper pattern, or the system photo picker to let you choose an <strong>existing photo</strong>.
   Images are used on your device to trace an editable, true-scale pattern. Photos are not uploaded
-  to us and, in this version, are not sent to the AI service.</p>
+  to us and are not sent to any AI service.</p>
 
   <h2>5. What we do NOT collect</h2>
   <ul>
@@ -113,6 +113,12 @@
     <li>No advertising identifiers; no advertising; no cross-app or cross-site tracking.</li>
     <li>No third-party analytics or tracking SDKs.</li>
   </ul>
+  <p><strong>Email you choose to send us.</strong> Help &rarr; Send feedback (and the "Tell us"
+  prompt after an export) opens a pre-filled email to us from your own mail account, in an email
+  sheet or your mail app, or shows our address for you to copy. The draft carries the app's version and build number in its subject.
+  Nothing is sent automatically: only if you send that email do we receive your email address
+  and your message, by ordinary email. We use them only to reply to you and to improve the app,
+  and we do not add you to any list.</p>
 
   <h2>6. Diagnostics</h2>
   <p>Crash and performance diagnostics remain on your device unless you explicitly opt in to
@@ -135,11 +141,11 @@
     <li><strong>Access / portability:</strong> your patterns are your local <code>.patternplot</code>
       and exported PDF files.</li>
     <li><strong>Deletion:</strong> delete your files, or delete the app, to remove all on-device
-      data. You can stop the only outbound data flow at any time by not using AI-assisted
-      features.</li>
-    <li><strong>Controller / processor:</strong> for the optional advisory call, cpmtek is the
-      data controller and Anthropic is a processor. The lawful basis is performance of the service
-      you requested. We do not sell personal information.</li>
+      data. This version sends none of your pattern data off the device.</li>
+    <li><strong>Controller / processor:</strong> for the advisory call described in section 3, if a
+      version offers it and you use it, cpmtek is the data controller and Anthropic is a processor.
+      The lawful basis is performance of the service you requested. We do not sell personal
+      information.</li>
   </ul>
   <p>To ask a question or make a request, contact
   <a href="mailto:amtyurin@gmail.com">amtyurin@gmail.com</a>.</p>
