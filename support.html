@@ -43,11 +43,11 @@
 <main>
   <p class="eyebrow">PatternPlot</p>
   <h1>Support</h1>
-  <p class="updated">PatternPlot for iPad &middot; Last updated: 5 July 2026</p>
+  <p class="updated">PatternPlot for iPad &middot; Last updated: 14 October 2026</p>
 
   <p>PatternPlot turns a paper sewing pattern into an editable, true-scale vector on your iPad,
-  then deterministically grades one base size into a full size run. This page answers the most
-  common questions and tells you how to reach a human.</p>
+  then grades it into a full size run with deterministic geometry you can audit. This page answers
+  the most common questions and tells you how to reach a human.</p>
 
   <div class="card contact">
     <p><strong>Contact us</strong></p>
@@ -65,7 +65,13 @@
     <li><strong>Trace:</strong> import a photo of your paper pattern (or, on a physical iPad, scan
       with the document camera), tap the four corners of a known rectangle and enter its real
       size to calibrate to true scale, then tap along the edge to trace.</li>
-    <li><strong>Edit:</strong> add or move points, add seam allowance, notches, and grainline.</li>
+    <li><strong>Import:</strong> or bring in your own vector artwork as SVG. If the file states a
+      real-world size it imports at true scale; if it doesn't, you're asked to measure one width
+      rather than the app guessing.</li>
+    <li><strong>Edit:</strong> add, move or delete points, set seam allowance (per edge if you
+      want), notches, and grainline.</li>
+    <li><strong>Grade:</strong> mark a reference point and an axis, type how much each size grows,
+      and export a PDF per size.</li>
     <li><strong>Export:</strong> tiled A4/Letter or A0 PDF with registration marks and a 50&nbsp;mm
       calibration square — free, no subscription required.</li>
   </ul>
@@ -75,9 +81,11 @@
   <details>
     <summary>What is free, and what needs a subscription?</summary>
     <p>Tracing, vector editing, seam allowance, notches, grainline, and tiled/A0 PDF export are
-    <strong>free forever</strong> — no purchase required. The only paid feature is
-    <strong>Pro Grading</strong>: deterministic full-size-run grading, the nested-grade overlay,
-    grade-rule starter tables, and a deterministic QA report.</p>
+    <strong>free forever</strong> — no purchase required. So is grading your own piece across a
+    size run you define: the nested run and the quality report are shown on screen, and the base
+    size exports free. <strong>Pro Grading</strong> buys the files for the rest of the run — a
+    tiled PDF for every size, a nest of the whole run on one sheet, and every piece of the
+    garment in each file.</p>
   </details>
 
   <details>
@@ -106,14 +114,14 @@
   </details>
 
   <details>
-    <summary>How accurate is grading? Does AI change my measurements?</summary>
+    <summary>How is grading checked? Does AI change my measurements?</summary>
     <p>All geometry — every coordinate, seam allowance, notch, and graded measurement — is computed
-    <strong>deterministically on your device</strong>. The optional AI-assisted advisory (Pro) only
-    turns plain-English requests into suggestions and quality-check warnings; it is
-    <strong>advisory only and never sets or alters your measurements</strong>. The grade-rule
-    starter tables are synthetic starting points you edit — not a validated size library.
-    PatternPlot flags when a size drifts beyond a safe grade range so you can re-check proportions
-    before cutting.</p>
+    <strong>deterministically on your device</strong>. This version has no AI feature: no AI sets,
+    suggests or alters your measurements, and the app sends no pattern data anywhere to grade it.
+    The built-in grade
+    tables are synthetic textbook stand-ins, clearly labelled as such in the app, and are not a
+    validated size library. PatternPlot flags when a size drifts beyond a safe grade range so you
+    can re-check proportions before cutting.</p>
   </details>
 
   <details>
@@ -125,10 +133,9 @@
 
   <details>
     <summary>What data leaves my device?</summary>
-    <p>By default, none. Only if you use an optional AI-assisted feature does the app send a
-    structured, non-personal pattern summary plus your typed request to our processing service,
-    which forwards it to Anthropic (Claude) to return advice. No pattern photo is sent, and it is
-    processed transiently and not stored. Full detail is in the
+    <p>None of your pattern data. This version has no AI feature, and grading, geometry and
+    exports all happen on your device, so nothing is sent for them. If you use Help &rarr; Send
+    feedback, the email goes only when you send it yourself. Full detail is in the
     <a href="privacy-policy.html">Privacy Policy</a>.</p>
   </details>
 
@@ -139,7 +146,7 @@
 
   <hr>
   <footer>
-    <p>Contact:
+    <p>PatternPlot is a product of cpmtek. Contact:
       <a href="mailto:amtyurin@gmail.com">amtyurin@gmail.com</a>.<br>
       See also our <a href="privacy-policy.html">Privacy Policy</a> and
       <a href="terms-of-use.html">Terms of Use</a>.</p>
